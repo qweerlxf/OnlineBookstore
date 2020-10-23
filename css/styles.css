@@ -1,0 +1,126 @@
+html {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+#a1 {
+    font-size: 100px;
+	text-align: center;
+	color: white;
+	margin: 20px;
+	font-family: "微软雅黑", "Dosis", sans-serif;
+	font-size: bold;
+	letter-spacing: 1em;
+	text-shadow:
+	0px 1px 0px #c0c0c0,
+	0px 2px 0px #b0b0b0,
+	0px 3px 0px #a0a0a0,
+	0px 4px 0px #909090,
+	0px 5px 10px rgba(0,0,0,0.6);
+}
+.panel-lite {
+  margin: 40px auto;
+  max-width: 300px;
+  background: #fff;
+  padding: 8px 70px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.panel-lite h4 {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #336699;
+  margin: 40px auto;
+}
+.panel-lite a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #336699;
+  font-size: 14px;
+}
+
+.form-group {
+  position: relative;
+  font-size: 15px;
+  color: #666;
+}
+.form-group + .form-group {
+  margin-top: 30px;
+}
+.form-group .form-label {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.form-group .form-control {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  height: 35px;
+  background: none;
+  border: none;
+  padding: 5px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom: 1px solid #777;
+}
+.form-group .form-control:invalid {
+  outline: none;
+}
+.form-group .form-control:focus, .form-group .form-control:valid {
+  outline: none;
+  color: #336699;
+  box-shadow: 0 1px #336699;
+  border-color: #336699;
+}
+.form-group .form-control:focus + .form-label, .form-group .form-control:valid + .form-label {
+  font-size: 12px;
+  -ms-transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+}
+
+.icon-arrow {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  display: block;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.icon-arrow:after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 3px;
+  background: #fff;
+  left: -5px;
+  top: 5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+input[type="button"], input[type="submit"] {
+    padding:10px;
+    background-color:#8080c0;
+    text-align: center;
+    border-radius:12px;
+    width:80px;
+    border:none;
+	color:#FFF;
+	margin: 100px;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color:#FF4081;
+}
